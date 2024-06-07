@@ -1,0 +1,1 @@
+Simple MADLIBS app that creates a random story with words given.
