@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madlibs!</title>
+    <link rel="stylesheet" href="../static/main.css">
+</head>
+<body>
+
+    <h1>Madlibs!</h1>
+    <h2>Fill in the blanks and create a story!</h2>
+    <div id="formdiv">
+    <form action="/story" method="post">
+        <label for="location">Location:</label>
+        <input type="text" name="location" placeholder="Enter location">
+        <label for="noun">Noun:</label>
+        <input type="text" name="noun" placeholder="Enter noun">
+        <label for="verb">Present-tense verb:</label>
+        <input type="text" name="verb" placeholder="Enter present-tense verb">
+        <label for="adj">Adjective:</label>
+        <input type="text" name="adjective" placeholder="Enter adjective ">
+        <label for="plural-noun">Plural noun:</label>
+        <input type="text" name="plural-noun" placeholder=" Enter plural-noun">
+        <button type="submit">Enter</button>
+    </form>
+    <hr>
+    </div>
+    <div id="storydiv">
+
+    </div>
+</body>
+</html>
